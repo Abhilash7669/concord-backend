@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`Server is running in port ${PORT}`);
+    console.log(`Server is running in port ${PORT}`)
 });
 
 app.get("/", (req, res) => {
