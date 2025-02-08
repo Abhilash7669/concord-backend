@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "name": "concord-back-end",
+  "version": "1.0.0",
+  "description": "concord-back-end, my first-chat-app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Abhilash",
+  "license": "ISC"
+}
