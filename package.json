@@ -1,12 +1,14 @@
 {
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
   "name": "concord-back-end",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "concord-back-end, my first-chat-app",
   "type": "module",
   "main": "app.js",
